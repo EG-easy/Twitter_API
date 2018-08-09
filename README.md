@@ -20,9 +20,9 @@ $ source setup.sh
 ```
 
 3. start the setting of mongoDB 
-```shell:~
-$ nsqlookupd
+```shell
 # open another shell
+$ nsqlookupd
 $ nsqd --lookupd-tcp-address=localhost:4160
 # open another shell
 $ sudo mongod --dbpath /var/lib/mongodb --logpath /var/log/mongodb.log
