@@ -15,7 +15,7 @@ $ git clone https://github.com/EG-easy/twitter_textmining.git
 1. get Twitter API from apps.twitter.com
 
 2. reflect the API setting
-```shell:~/twitter_textmining/
+```rb:~/twitter_textmining/
 $ source setup.sh
 ```
 
