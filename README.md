@@ -9,18 +9,18 @@ https://www.mongodb.com/download-center?jmp=nav#community
 
 # Quick Start!
 0. git clone this repository
-```shell-session:~
+```bash:~
 $ git clone https://github.com/EG-easy/twitter_textmining.git
 ```
 1. get Twitter API from apps.twitter.com
 
 2. reflect the API setting
-```shell-session:~/twitter_textmining/
+```bash:~/twitter_textmining/
 $ source setup.sh
 ```
 
 3. start the setting of mongoDB 
-```shell-session:~
+```bash:~
 $ nsqlookupd
 #open another shell
 $ nsqd --lookupd-tcp-address=localhost:4160
