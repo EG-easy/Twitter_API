@@ -19,5 +19,25 @@ $ git clone https://github.com/EG-easy/twitter_textmining.git
 $ source setup.sh
 ```
 
+3. start the setting of mongoDB 
+```shell-session:~
+$ nsqlookupd
+//open another shell
+$ nsqd --lookupd-tcp-address=localhost:4160
+//open another shell
+$ sudo mongod --dbpath /var/lib/mongodb --logpath /var/log/mongodb.log
+//open another shell
+$mongo
+```
+
+4. 
+```shell-session:~
+
+```
+
+5. 
+```shell-session:~
+$ mongod
+```
 
 
